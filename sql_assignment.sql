@@ -13,12 +13,11 @@
 
 
 -- 3) Find the least expensive track that has the genre "Electronica/Dance".
-    #SELECT * FROM tracks WHERE genre_id = 
+    #SELECT * FROM tracks WHERE genre_id =
     (SELECT id FROM genres WHERE name = 'Electronica/Dance')
     ORDER BY unit_price ASC LIMIT 1;
 
 -- 4) Find the all the artists whose names start with A.
-
-
+    #SELECT * FROM artists WHERE name LIKE 'A%';
 
 -- 5) Find all the tracks that belong to playlist 1.
