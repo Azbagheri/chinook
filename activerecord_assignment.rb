@@ -28,6 +28,7 @@ Track.sum("milliseconds")
 
 
 # 4) Find the 2 oldest artists.
+  >Artist.order(created_at: :asc).first(2)
 
 
 
