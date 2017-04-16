@@ -5,6 +5,7 @@
 
 
 # 1a) Find the genre with the name "Hip Hop/Rap".
+  >Genre.where(name: 'Hip Hop/Rap')
 
 
 
