@@ -36,3 +36,4 @@ Track.sum("milliseconds")
 
 
 # 1) Find all the albums whose titles start with B.
+  >Album.where('title LIKE ?', 'B%')
